@@ -1,0 +1,26 @@
+name: pr
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  frontera-de-identidad:
+    name: frontera de identidad
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # El guard se prueba ANTES de usarse: un guard sin test es un guard que un día
+      # deja de detectar y nadie se entera (Art. VIII de la constitución de aleu).
+      - name: probar el guard
+        run: |
+          python3 -m pip install --quiet pytest
+          python3 -m pytest tests/ -q
+
+      - name: verificar la frontera
+        run: python3 scripts/ci/check_isolation.py
