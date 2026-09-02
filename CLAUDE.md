@@ -21,7 +21,7 @@ Esto **no es una convención de este repositorio**: es el **Artículo XV** de la
 que rige los dos repositorios del proyecto.
 
 📖 **La ley, íntegra y en su único lugar:**
-[`aleu/.specify/memory/constitution.md`](https://github.com/maxparra-architecture/aleu/blob/main/.specify/memory/constitution.md)
+[`aleu/.specify/memory/constitution.md`](https://github.com/aleu-ai/aleu/blob/main/.specify/memory/constitution.md)
 
 **No copies el texto del artículo aquí.** Si lo duplicas, diverge (Art. XVI). Cítalo por enlace.
 
@@ -71,6 +71,6 @@ Dos cosas que hay que decidir **antes**, porque después son caras:
 
 ## El otro repositorio
 
-**[`maxparra-architecture/aleu`](https://github.com/maxparra-architecture/aleu)** — la plataforma:
+**[`aleu-ai/aleu`](https://github.com/aleu-ai/aleu)** — la plataforma:
 backend, frontend de la app, infraestructura, contratos y specs. Ahí vive la constitución, el
 glosario y el registro de decisiones.
