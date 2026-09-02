@@ -2,7 +2,7 @@
 """Guard de la frontera de identidad — Artículo XV de la constitución de aleu.
 
 La ley vive en `aleu`, no aquí:
-  https://github.com/maxparra-architecture/aleu/blob/main/.specify/memory/constitution.md
+  https://github.com/aleu-ai/aleu/blob/main/.specify/memory/constitution.md
   (Artículo XV — Un solo dueño de la identidad)
 
 Este script es su mecanismo de verificación. `aleu-site` es marketing puro: no lee sesión,
@@ -187,7 +187,7 @@ def main() -> int:
         print(f"      → {v.excerpt}\n")
     print(
         "Artículo XV de la constitución de aleu — un solo dueño de la identidad:\n"
-        "  https://github.com/maxparra-architecture/aleu/blob/main/.specify/memory/constitution.md\n"
+        "  https://github.com/aleu-ai/aleu/blob/main/.specify/memory/constitution.md\n"
         "Si crees que el sitio necesita de verdad esta capacidad, el camino es enmendar el\n"
         "artículo con Max, no saltarse el check."
     )

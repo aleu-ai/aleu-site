@@ -11,7 +11,7 @@ violarla.
 credenciales, no consume la API de producto. Su única acción vecina a la autenticación es un enlace
 a `app.aleu.ai/signup`.
 
-Es el **Artículo XV** de la [constitución de aleu](https://github.com/maxparra-architecture/aleu/blob/main/.specify/memory/constitution.md),
+Es el **Artículo XV** de la [constitución de aleu](https://github.com/aleu-ai/aleu/blob/main/.specify/memory/constitution.md),
 que rige los dos repositorios del proyecto. Aquí se cita, no se copia.
 
 Y se hace cumplir por CI:
